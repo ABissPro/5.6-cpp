@@ -19,11 +19,11 @@ int main()
 	   std::cout << "Можно!";
    }
 
-   if (yearCurrent - yearOfBirth < 18) {
+   else if (yearCurrent - yearOfBirth < 18) {
 	   std::cout << "Нельзя!!";
    }
 
-   if ((yearCurrent - yearOfBirth) == 18) {
+   else  {
 	   if (monthCurrent == monthOfBirth) {
 		   if (dayCurrent <= dayOfBirth) {
 			   std::cout << "Нельзя!!";
